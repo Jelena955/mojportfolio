@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Averia+Libre|Averia+Serif+Libre|Noto+Sans+HK&display=swap');
+
 * {
 	margin: 0px;
     padding: 0px;
-    font-family: 'Averia  Libre', cursive;
 }
 $boja1:#4e5819;
 $boja2: #840705; 
@@ -10,6 +9,8 @@ $boja2: #840705;
 
 body
 {
+     font-family: 'Averia Libre',
+     cursive;
     background-image: linear-gradient(90deg, #ffffff, #e7e7e7, #d1d1d1, #b6b6b6, #9b9b9b );
   
 }
@@ -401,6 +402,7 @@ i{
         background-color:  #d6cece;
         border-color:transparent;
         margin-top:15px;
+        width:99%;
 
     }
     input[type=submit]{
@@ -426,7 +428,7 @@ i{
     width:40px;
     height:auto;
     position: absolute;
-    top:400px;
+    top:350px;
     right:1px;
     background-color: rgba(255, 255, 255,0.2);
     border-radius: 100%;

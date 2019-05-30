@@ -1,3 +1,145 @@
+@media screen and (min-width: 1600px) {
+
+    .dodatni {
+        margin-top: 10%;
+    }
+
+    #meni {
+        height: 150px;
+    }
+
+    #pozicioni {
+
+        a {
+            font-size: 30px;
+        }
+
+    }
+
+    #slicice {
+        height: 1150px;
+
+        #oMeni {
+
+            padding: 40px;
+
+            h2 {
+                font-size: 60px;
+
+            }
+
+            h3 {
+                font-size: 40px;
+
+            }
+        }
+    }
+
+    .zomot {
+        h5 {
+            font-size: 35px;
+        }
+
+        .zvezdica {
+            width: 35px;
+            height: 35px;
+        }
+    }
+
+    .podnaslov {
+        hr {
+            height: 8px;
+        }
+
+        h4 {
+            font-size: 70px;
+        }
+    }
+
+    .blok {
+
+
+        h6 {
+            font-size: 20px;
+
+
+
+
+        }
+    }
+
+    #kruzici {
+        left: 49.5%;
+        width: 60px;
+        top: 120px;
+
+        .krug {
+            margin-top: 150px;
+        }
+    }
+
+    #obrazovanje {
+        height: 600px;
+    }
+
+    .drzac {
+        .tekst {
+            width: 500px;
+            padding-top: 40px;
+
+            h6 {
+                font-size: 35px;
+            }
+
+        }
+
+        .izmena {
+            margin-right: -600px;
+        }
+    }
+
+    .drzac {
+        #pismo {
+            i {
+                font-size: 300px;
+            }
+
+            #contme {
+                h5 {
+                    font-size: 80px;
+                }
+
+            }
+
+        }
+
+    }
+
+    #forma {
+        width: 600px;
+
+        input {
+            width: 600px;
+        }
+
+        textarea {
+            width: 600px;
+        }
+    }
+}
+@media screen and (max-width: 1300px) {
+    #meni {
+        li {
+            width: 170px;
+        }
+    }
+
+    .drzac {
+        .tekst {
+            padding-top: 30px;
+        }
+    }
+}
 @media screen and (max-width: 1275px) {
     .zomot{
         h5{
@@ -5,22 +147,10 @@
         }
     }
 }
-@media screen and (max-width: 1300px) {
-    #meni{
-        li{
-            width:170px;
-        }
-    }
-    .drzac{
-        .tekst{
-            padding-top:30px;
-        }
-    }
-}
 @media screen and (max-width: 1125px) {
     #meni{
         li{
-            width:150px;
+            width:140px;
         }
     }
     .zomot{
@@ -70,7 +200,7 @@
         left:49%;
     }
     #strelica{
-        top:420px;
+        top:350px;
     }
   
 }
@@ -122,6 +252,31 @@
     .drzac{
         .izmena{
             margin-right: -95%;
+        }
+    }
+}
+@media screen and (max-width:803px) {
+    #meni {
+        li {
+            width: 100px;
+        }
+    }
+}
+@media screen and (max-width:776px) {
+    .cetvrti {
+        #pismo {
+            #efekat {}
+
+
+
+
+            .mapp {
+                display: none;
+
+
+
+
+            }
         }
     }
 }
@@ -207,9 +362,16 @@
     }
     }
     #strelica{
-        top:500px;
+        top:420px;
     }
     
+}
+@media screen and (max-width:703px) {
+    #meni {
+        li {
+            width: 75px;
+        }
+    }
 }
 @media screen and (max-width:625px){
     
@@ -218,7 +380,7 @@
     
     .drzac{
         .knjiga{
-            visibility: hidden;
+            display: none;
          }
          
         #obrazovanje{
@@ -228,7 +390,7 @@
             left:68.5%;
         }
         .tekst{
-            padding:35px;
+            padding:60px;
             margin-left: 5%;
             h6{
                 font-size:20px;
@@ -279,6 +441,9 @@
 }
  
  .drzac{
+     .tekst{
+         width:200px;
+     }
     
  #karakteristike{
      width:100%;
@@ -306,12 +471,11 @@
     display: none;
 }
 .drzac{
-.izmena{
+.izmena {
     margin-right: 5px;
 }
 .knjiga{
     top:250px;
-    left:100px;
 }
 .tekst{
     padding-top:55px;
@@ -325,210 +489,85 @@
 
 
 }
-@media screen and (min-width: 1600px) {
-   
-.dodatni{
-    margin-top:10%;
-}
-#meni{
-    height:150px;
-}
-#pozicioni{
-   
-    a{
-        font-size: 30px;
-    }
-
-}
-#slicice{
-    height:1150px;
-    #oMeni{
-       
-        padding:40px;
-        h2{
-            font-size: 60px;
-
-        }
-        h3{
-            font-size: 40px;
-
-        }
-    }
-}
-.zomot{
-    h5{
-        font-size:35px;
-    }
-    .zvezdica{
-        width:35px;
-        height:35px;
-    }
-}
-.podnaslov{
-    hr{
-        height:8px;
-    }
-    h4{
-        font-size: 70px;
-    }
-}
-.blok{
-   
-   
-   h6  {
-       font-size: 20px;
-      
-
-       
-    
-}
-}
-#kruzici{
-    left:49.5%;
-    width:60px;
-    top:120px;
-   .krug{
-    margin-top: 150px;
-   }
-}
-#obrazovanje{
-    height:600px;
-}
-.drzac{
-    .tekst{
-        width:500px;
-        padding-top: 40px;
-        h6{
-            font-size: 35px;
-        }
-
-    }
-    .izmena{
-        margin-right:-600px;
-    }
-}
-.drzac{
-    #pismo{
-        i{
-            font-size: 300px;
-        }
-        #contme{
-            h5{
-                font-size:80px;
-            }
-            
-            }
-        
-    }
-   
-}
-#forma{
-    width:600px;
-    input{
-        width:600px;
-    }
-    textarea{
-        width:600px;
-    }
-}
-}
 @media screen and (max-width: 420px) {
-    #pozicioni{
-        li{
-            width:70px;
+    #meni {
+        li {
+            width: 60px;
         }
     }
-    #slicice{
-    #oMeni{
-        h3{
-            font-size:15px;
-        }
-    }
-}
-.drzac{
-   
-     
-    #obrazovanje{
-        width:85%;
-    }
-    #kruzici{
-        left:82.5%;
-    }
-}
-#forma{
-    input{
-        width:250px;
-    }
-    textarea{
-        width:250px;
-    }
-}
-.drzac{
-    h5{
-        font-size:20px;
-    }
 
-
-}
-.drzac{
-    .zomot{
-        width:80%;
-    }
-    #skills{
-        width:80%;
-    }
-}
-#meni{
-    a{
-        font-size: 10px;
-    }
-    li{
-        width:60px;
-    }
-}
-.drzac{
-    .tekst{
-        width:200px;
-    }
-}
-
-
-}
-@media screen and (max-width:776px) {
-    .cetvrti{
-        #pismo{
-            #efekat{
-           
-        }
-    
-       
-            
-                
-                .mapp{
-                display: none;
-                
-             
-                
-            
+    #slicice {
+        #oMeni {
+            h3 {
+                font-size: 15px;
             }
         }
+    }
+
+    .drzac {
+
+
+        #obrazovanje {
+            width: 85%;
         }
-}
-@media screen and (max-width:803px) {
-    #meni{
-        li{
-            width:100px;
+
+        #kruzici {
+            left: 82.5%;
+        }
+    }
+
+    #forma {
+        input {
+            width: 250px;
+
+
+        }
+
+        textarea {
+            width: 250px;
+        }
+    }
+
+    .drzac {
+        h5 {
+            font-size: 20px;
+        }
+    }
+
+    .drzac {
+        .zomot {
+            width: 80%;
+        }
+
+        #skills {
+            width: 80%;
+
+        }
+    }
+
+    #meni {
+        a {
+            font-size: 10px;
+        }
+
+        li {
+            width: 60px;
+        }
+    }
+
+    .drzac {
+        .tekst {
+            width: 200px;
+        }
+    }
+    .drzac{
+        #strelica{
+            display: none;
         }
     }
 }
 
-@media screen and (max-width:703px) {
-#meni{
-    li{
-        width:75px;
-    }
-}
-}
+
 
 
   
